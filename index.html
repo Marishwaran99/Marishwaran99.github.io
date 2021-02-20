@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="loading-screen">
+    <div class="loading-screen__title">
+      <span class="loading-screen__title-text loading-text-fadeUp">Website</span>
+      <span class="loading-screen__title-text loading-text-fadeUp">Is</span>
+      <span class="loading-screen__title-text loading-text-fadeUp">Cooking</span>
+    </div>
+    <div class="loading-screen__background">
+    </div>
+  </div>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">
+        <h1 class="navbar-logo-text">Marish</h1>
+      </a>
+      <ul class="navbar__links">
+        <li class="navbar__item"><a href="#home" class="navbar__link active">Home
+
+          </a>
+        </li>
+        <li class="navbar__item"><a href="#work" class="navbar__link">Work
+          </a>
+        </li>
+        <li class="navbar__item"><a href="#contact" class="navbar__link">Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="break" id="home"></div>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__wrapper--left">
+            <h2 class="hero__title-text">
+              <span class="text-highlight--pink">Front</span> End <br>
+              <span class="text-highlight--pink">Developer.
+              </span>
+            </h2>
+            <p class="hero__subtitle-text">
+              I design and build responsive websites and apps with clean UI.
+            </p>
+            <button class="hero__button" onclick="window.location.href = '#work';">See My Work</button>
+          </div>
+
+          <div class="hero__wrapper--right">
+            <h4 class="hero__wrapper--right-title-text">
+              <span class="text-highlight--blue">
+                Things I know</span>
+            </h4>
+            <div class="hero__wrapper--right-container">
+              <div class="programming-card">
+                <img src="./images/html.png" alt="HTML">
+                <h5 class="programming-card__title">
+                  HTML
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/css.png" alt="CSS">
+                <h5 class="programming-card__title">
+                  CSS
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/js.png" alt="JS">
+                <h5 class="programming-card__title">
+                  JavaScript
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/bootstrap.png" alt="Bootstrap">
+                <h5 class="programming-card__title">
+                  Bootstrap
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/react.png" alt="React JS">
+                <h5 class="programming-card__title">
+                  React JS
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/flutter.png" alt="Flutter">
+                <h5 class="programming-card__title">
+                  Flutter
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work-section">
+      <div class="break" id="work"></div>
+      <div class="container">
+        <div class="work__wrapper">
+          <h2 class="section-title"><span class="text-highlight--pink">My Work</span></h2>
+
+          <div class="work__wrapper-container">
+            <div class="project-card">
+              <img src="./images/screenshot1.png" alt="ss1">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">MLearn</h4>
+                <p class="project-card__body-text">React JS web application to learn web programming languages.
+                </p>
+                <div class="project-card__button">
+                  <a class="circle-btn" href="http://m-learn-app.herokuapp.com/" target="_blank">
+                    View Website
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./images/make_my_day.svg" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Make My Day</h4>
+                <p class="project-card__body-text">Flutter Application for managing daily routines.
+                </p>
+                <div class="project-card__button">
+                  <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                    View on store
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="break"></div>
+    </section>
+
+    <section class="contact-section">
+      <div class="break" id="contact"></div>
+      <div class="container">
+        <div class="contact__wrapper">
+          <h2 class="section-title"><span class="text-highlight--green">Contact Me</span></h2>
+          <div class="contact__wrapper-container">
+            <div class="contact-card">
+              <h4 class="contact-card__title-text">Email Address</h4>
+              <p class="contact-card__body-text">marishwaran22@gmail.com</p>
+            </div>
+            <div class="contact-card">
+              <h4 class="contact-card__title-text">Find me at</h4>
+              <div class="social-icon__container">
+                <a href="https://github.com/Marishwaran99"><img src="./images/github.svg" alt="github"></a>
+                <a href="https://www.instagram.com/marish221/"><img src="./images/instagram.svg" class="ml-2"
+                    alt="instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="break"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <h4 class="footer-text">&copy; Marish 2020</h4>
+        <h4 class="footer-text">Icons by icons8.com</h4>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="./main.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
